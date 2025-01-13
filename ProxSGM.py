@@ -53,6 +53,8 @@ class ProxSGD(ABC):
         self.metrics = None
         self.metrics_functions = None
         self._algo_name = "ProxSGD"
+        if self.num_subsets == 1:
+            self._algo_name = "ProxGD"
 
     def set_sampling(self, sampling=None, sampling_weights=None, seed=42):
 
@@ -76,9 +78,7 @@ class ProxSGD(ABC):
 
     def set_stepsize_func(self, stepsizes=None):
 
-        if (
-            stepsizes is None or stepsizes == "constant"
-        ):  
+        if stepsizes is None or stepsizes == "constant":
             self.stepsize_func = lambda x: 1.0 / 2.0 / self.Lmax
         else:
             self.stepsize_func = stepsizes
@@ -104,7 +104,7 @@ class ProxSGD(ABC):
         else:
             raise ValueError("In get_nextsubset: unidentified sampling method")
 
-    def get_updatedirection(self, x, subset_num):
+    def get_updatedirection(self, x, subset_num, iterate):
         return self.smooth_fs[subset_num].gradient(x)
 
     def get_stepsize(self, iteration=None):
@@ -205,6 +205,7 @@ class ProxSGD(ABC):
 Inherited class, defining prox-SAGA
 """
 
+
 class ProxSAGA(ProxSGD):
     def __init__(
         self,
@@ -217,7 +218,7 @@ class ProxSAGA(ProxSGD):
         saga_type="standard",
         operators=None,
         seed=42,
-    ):  
+    ):
         """
         Inputs
         :param list smooth_fs: list of smooth functions
@@ -306,9 +307,11 @@ class ProxSAGA(ProxSGD):
         else:
             self.data_passes.append(self.data_passes[-1] + 1.0 / self.num_subsets)
 
+
 """
 Inherited class, defining prox-SVRG
 """
+
 
 class ProxSVRG(ProxSGD):
     def __init__(
@@ -323,7 +326,7 @@ class ProxSVRG(ProxSGD):
         operators=None,
         update_frequency=2,
         seed=42,
-    ):  
+    ):
         """
         Inputs
         :param list smooth_fs: list of smooth functions
@@ -426,6 +429,7 @@ class ProxSVRG(ProxSGD):
         else:
             self.data_passes.append(self.data_passes[-1] + 1.0 / self.num_subsets)
 
+
 """
 A proximal version of ADAM
 """
@@ -441,7 +445,7 @@ class ProxADAM(ABC):
         sampling_weights=None,
         stepsizes=None,
         seed=42,
-    ):  
+    ):
         """
         Inputs
         :param list smooth_fs: list of smooth functions
@@ -472,7 +476,6 @@ class ProxADAM(ABC):
         self.beta1 = 0.9
         self.beta2 = 0.999
         self.epsi = 1e-8
-
 
         self.metrics = None
         self.metrics_functions = None
