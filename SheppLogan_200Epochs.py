@@ -50,7 +50,7 @@ proxfriendly_g = (alpha / ig.voxel_size_x) * FGP_TV(
 metrics = {"objective": lambda x: smooth_f(x) + proxfriendly_g(x)}
 
 subsets = [10, 60, 240]
-num_epochs = 2
+num_epochs = 200
 eta = 0.01  # step size parameter for SGD
 
 # Storing the results

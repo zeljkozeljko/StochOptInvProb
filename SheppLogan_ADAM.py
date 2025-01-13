@@ -48,8 +48,6 @@ alpha = 7
 proxfriendly_g = (alpha / ig.voxel_size_x) * FGP_TV(
     max_iteration=100, device="gpu", nonnegativity=True
 )
-metrics = {"objective": lambda x: smooth_f(x) + proxfriendly_g(x)}
-
 num_epochs = 50
 
 # Storing the results
