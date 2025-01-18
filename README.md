@@ -28,9 +28,9 @@ Results in the paper can be reproduced by running code as follows:
 
 
 <p float="left">
-  <img src="figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png" style = "width: 33%" />
-  <img src="figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png" style = "width: 33%" /> 
-  <img src="figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png" style = "width: 33%" />
+  <img src="figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png" style = "width: 30%" />
+  <img src="figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png" style = "width: 30%" /> 
+  <img src="figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png" style = "width: 30%" />
 </p>
 
 
@@ -51,4 +51,31 @@ Results in the paper can be reproduced by running code as follows:
 | --- | --- | --- |
 | ![High Noise](figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png "high noise")| ![Medium NOise](figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png "medium noise")| ![Low Noise](figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png "low noise")|
 
-![High Noise](figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png "high noise") ![Medium NOise](figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png "medium noise")  ![Low Noise](figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png "low noise")
+<style>
+  table {
+    border-collapse: collapse;
+  }
+  table, th, td {
+    border: none;
+  }
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+</style>
+
+<table>
+  <tr>
+    <th>High Noise</th>
+    <th>Medium Noise</th>
+    <th>Low Noise</th>
+  </tr>
+  <tr>
+    <td><img src="figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png" alt="high noise" style="width: 30%;"></td>
+    <td><img src="figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png" alt="medium noise" style="width: 30%;"></td>
+    <td><img src="figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png" alt="low noise" style="width: 30%;"></td>
+  </tr>
+</table>
+
+
+<!-- ![High Noise](figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png "high noise") ![Medium NOise](figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png "medium noise")  ![Low Noise](figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png "low noise") -->
