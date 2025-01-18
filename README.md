@@ -2,7 +2,7 @@
 
 This repository contains the implementation of the numerical experiments for the paper [A Guide to Stochastic Optimisation for Large-Scale Inverse Problems](https://arxiv.org/abs/2406.06342)
 
-If you have any questions please contact the authors.
+If you have any questions please contact the authors
 
 ## Usage
 
@@ -25,3 +25,28 @@ Results in the paper can be reproduced by running code as follows:
 * Figure 6: `SheppLogan_ADAM.py` and `SheppLogan_SGDStepsize.py`
 * Figure 8-9: `Walnut_Comparison.py`
 * Figure 10: `Walnut_SVRGStepsizes.py`
+
+
+<p float="left">
+  <img src="figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png" width="100" />
+  <img src="figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png" width="100" /> 
+  <img src="figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png" width="100" />
+</p>
+
+
+<table>
+  <tr>
+    <td>High Noise</td>
+     <td>Medium Noise</td>
+     <td>Low Noise</td>
+  </tr>
+  <tr>
+      <td><img src="figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png" width="100" /></td>
+  <td><img src="figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png" width="100" /></td> 
+  <td><img src="figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png" width="100" /></td>
+  </tr>
+ </table>
+
+| High Noise | Medium Noise | Low Noise | 
+| --- | --- | --- |
+| [](figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png)| [](figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png)| [](figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png)|
