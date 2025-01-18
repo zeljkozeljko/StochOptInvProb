@@ -26,60 +26,7 @@ Results in the paper can be reproduced by running code as follows:
 * Figure 8-9: `Walnut_Comparison.py`
 * Figure 10: `Walnut_SVRGStepsizes.py`
 
-
-<p float="left">
-  <img src="figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png" style = "width: 30%" />
-  <img src="figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png" style = "width: 30%" /> 
-  <img src="figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png" style = "width: 30%" />
-</p>
-
-
-<table>
-  <tr>
-    <td>High Noise</td>
-     <td>Medium Noise</td>
-     <td>Low Noise</td>
-  </tr>
-  <tr>
-      <td><img src="figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png" width="300" /></td>
-  <td><img src="figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png" width="300" /></td> 
-  <td><img src="figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png" width="300" /></td>
-  </tr>
- </table>
-
-<!-- | High Noise | Medium Noise | Low Noise | 
-| --- | --- | --- |
-| ![High Noise](figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png "high noise")| ![Medium NOise](figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png "medium noise")| ![Low Noise](figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png "low noise")| -->
-
-<!-- <style>
-  table {
-    border-collapse: collapse;
-  }
-  table, th, td {
-    border: none;
-  }
-  th, td {
-    padding: 10px;
-    text-align: center;
-  }
-</style>
-
-<table>
-  <tr>
-    <th>High Noise</th>
-    <th>Medium Noise</th>
-    <th>Low Noise</th>
-  </tr>
-  <tr>
-    <td><img src="figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png" alt="high noise" style="width: 30%;"></td>
-    <td><img src="figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png" alt="medium noise" style="width: 30%;"></td>
-    <td><img src="figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png" alt="low noise" style="width: 30%;"></td>
-  </tr>
-</table> -->
-
-
-<!-- ![High Noise](figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png "high noise") ![Medium NOise](figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png "medium noise")  ![Low Noise](figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png "low noise") -->
-
+### Sub-optimality plots for fan-beam CT reconstruction of a Walnut
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
     <th style="border: none; padding: 10px; text-align: center;">High Noise</th>
@@ -98,3 +45,15 @@ Results in the paper can be reproduced by running code as follows:
     </td>
   </tr>
 </table>
+
+### Reconstruction trajectory after 10 epochs for medium noise
+[SGD](figures/Walnut_SGD_Intensity250_10Epochs_Reconstructions.png)
+[SVRG](figures/Walnut_SVRG_Intensity250_10Epochs_Reconstructions.png)
+[SPDHG](figures/Walnut_SPDHG_Intensity250_10Epochs_Reconstructions.png)
+
+#### SGD
+[SGD](figures/Walnut_SGD_Intensity250_10Epochs_Reconstructions.png)
+#### SVRG
+[SVRG](figures/Walnut_SVRG_Intensity250_10Epochs_Reconstructions.png)
+#### SPDHG
+[SPDHG](figures/Walnut_SPDHG_Intensity250_10Epochs_Reconstructions.png)
