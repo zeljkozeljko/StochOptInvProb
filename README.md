@@ -47,13 +47,17 @@ Results in the paper can be reproduced by running code as follows:
 </table>
 
 ### Reconstruction trajectory after 10 epochs for medium noise
-[SGD](figures/Walnut_SGD_Intensity250_10Epochs_Reconstructions.png)
-[SVRG](figures/Walnut_SVRG_Intensity250_10Epochs_Reconstructions.png)
-[SPDHG](figures/Walnut_SPDHG_Intensity250_10Epochs_Reconstructions.png)
+**SGD**
+![SGD](figures/Walnut_SGD_Intensity250_10Epochs_Reconstructions.png)
+**SVRG**
+![SVRG](figures/Walnut_SVRG_Intensity250_10Epochs_Reconstructions.png)
+**SPDHG**
+![SPDHG](figures/Walnut_SPDHG_Intensity250_10Epochs_Reconstructions.png)
+
 
 #### SGD
-[SGD](figures/Walnut_SGD_Intensity250_10Epochs_Reconstructions.png)
+![SGD](figures/Walnut_SGD_Intensity250_10Epochs_Reconstructions.png)
 #### SVRG
-[SVRG](figures/Walnut_SVRG_Intensity250_10Epochs_Reconstructions.png)
+![SVRG](figures/Walnut_SVRG_Intensity250_10Epochs_Reconstructions.png)
 #### SPDHG
-[SPDHG](figures/Walnut_SPDHG_Intensity250_10Epochs_Reconstructions.png)
+![SPDHG](figures/Walnut_SPDHG_Intensity250_10Epochs_Reconstructions.png)
