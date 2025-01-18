@@ -28,9 +28,9 @@ Results in the paper can be reproduced by running code as follows:
 
 
 <p float="left">
-  <img src="figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png" width="100" />
-  <img src="figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png" width="100" /> 
-  <img src="figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png" width="100" />
+  <img src="figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png" width="300" />
+  <img src="figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png" width="300" /> 
+  <img src="figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png" width="300" />
 </p>
 
 
@@ -41,12 +41,12 @@ Results in the paper can be reproduced by running code as follows:
      <td>Low Noise</td>
   </tr>
   <tr>
-      <td><img src="figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png" width="100" /></td>
-  <td><img src="figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png" width="100" /></td> 
-  <td><img src="figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png" width="100" /></td>
+      <td><img src="figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png" width="300" /></td>
+  <td><img src="figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png" width="300" /></td> 
+  <td><img src="figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png" width="300" /></td>
   </tr>
  </table>
 
 | High Noise | Medium Noise | Low Noise | 
 | --- | --- | --- |
-| [](figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png)| [](figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png)| [](figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png)|
+| []("figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png")| []("figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png")| []("figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png")|
