@@ -1,6 +1,8 @@
 # Stochastic Optimisation for Large-Scale Inverse Problems
 
-This repository contains the implementation of the numerical experiments for the paper [A Guide to Stochastic Optimisation for Large-Scale Inverse Problems](https://arxiv.org/abs/2406.06342)
+This repository contains the implementation of the numerical experiments for the preprint
+
+M. Ehrhardt, Z. Kereta, J. Liang, J. Tang (2024) [A Guide to Stochastic Optimisation for Large-Scale Inverse Problems](https://arxiv.org/abs/2406.06342)
 
 If you have any questions please contact the authors
 
@@ -11,7 +13,8 @@ We use the [Core Imaging Library](https://github.com/TomographicImaging/CIL) for
 conda create --name cil -c conda-forge -c https://software.repos.intel.com/python/conda -c ccpi cil=24.2.0 ipp=2021.12
 ```
 
-or follow the installation instructions on the linked github repository, where you may find further details, documentation and demos
+or follow the installation instructions on the linked github repository, where you may find further details, documentation and demos.
+This installation includes the supporting packages (e.g `numpy`)
 
 The walnut dataset can be accessed by downloading `20201111_walnut_sinogram_data_res_280.mat` in the `202001111_walnut_sinograms` directory [here](https://zenodo.org/records/4279549)
 
