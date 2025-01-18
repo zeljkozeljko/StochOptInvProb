@@ -28,9 +28,9 @@ Results in the paper can be reproduced by running code as follows:
 
 
 <p float="left">
-  <img src="figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png" width="300" />
-  <img src="figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png" width="300" /> 
-  <img src="figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png" width="300" />
+  <img src="figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png" style = "width: 33%" />
+  <img src="figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png" style = "width: 33%" /> 
+  <img src="figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png" style = "width: 33%" />
 </p>
 
 
@@ -49,4 +49,6 @@ Results in the paper can be reproduced by running code as follows:
 
 | High Noise | Medium Noise | Low Noise | 
 | --- | --- | --- |
-| []("figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png")| []("figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png")| []("figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png")|
+| ![High Noise](figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png "high noise")| ![Medium NOise](figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png "medium noise")| ![Low Noise](figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png "low noise")|
+
+![High Noise](figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png "high noise") ![Medium NOise](figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png "medium noise")  ![Low Noise](figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png "low noise")
