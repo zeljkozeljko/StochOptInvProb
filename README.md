@@ -88,13 +88,13 @@ Results in the paper can be reproduced by running code as follows:
   </tr>
   <tr>
     <td style="border: none; padding: 10px; text-align: center;">
-      <img src="figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png" alt="high noise" style="width: 30%;">
+      <img src="figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png" alt="high noise" style="width: 100%;">
     </td>
     <td style="border: none; padding: 10px; text-align: center;">
-      <img src="figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png" alt="medium noise" style="width: 30%;">
+      <img src="figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png" alt="medium noise" style="width: 100%;">
     </td>
     <td style="border: none; padding: 10px; text-align: center;">
-      <img src="figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png" alt="low noise" style="width: 30%;">
+      <img src="figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png" alt="low noise" style="width: 100%;">
     </td>
   </tr>
 </table>
