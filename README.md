@@ -46,9 +46,11 @@ Results in the paper can be reproduced by running code as follows:
   </tr>
 </table>
 
-### Reconstruction trajectory after 10 epochs for medium noise
+### Changes in the reconstruction during the first 10 epochs for medium noise
 **SGD**
 ![SGD](figures/Walnut_SGD_Intensity250_10Epochs_Reconstructions.png)
+**SAGA**
+![SAGA](figures/Walnut_SAGA_Intensity250_10Epochs_Reconstructions.png)
 **SVRG**
 ![SVRG](figures/Walnut_SVRG_Intensity250_10Epochs_Reconstructions.png)
 **SPDHG**
