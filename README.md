@@ -31,8 +31,6 @@ Results in the paper can be reproduced by running code as follows:
 
 ### Stochastic Optimisation yields Faster CT Reconstruction
 
-### Stochastic Optimisation yields Faster CT Reconstruction
-
 <p align="center">
 
 <img src="figures/Walnut_SVRG_Intensity250_10Epochs_Reconstructions.png" width="70%"/>
@@ -43,7 +41,7 @@ Results in the paper can be reproduced by running code as follows:
 
 <p align="center">
 
-<img src="figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png" width="50%"/>
+<img src="figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png" width="70%"/>
 
 </p>
 
