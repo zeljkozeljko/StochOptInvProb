@@ -29,32 +29,10 @@ Results in the paper can be reproduced by running code as follows:
 * Figure 8-9: `Walnut_Comparison.py`
 * Figure 10: `Walnut_SVRGStepsizes.py`
 
-### Sub-optimality plots for fan-beam CT reconstruction of a Walnut
-<table style="border-collapse: collapse; width: 100%;">
-  <tr>
-    <th style="border: none; padding: 10px; text-align: center;">High Noise</th>
-    <th style="border: none; padding: 10px; text-align: center;">Medium Noise</th>
-    <th style="border: none; padding: 10px; text-align: center;">Low Noise</th>
-  </tr>
-  <tr>
-    <td style="border: none; padding: 10px; text-align: center;">
-      <img src="figures/WalnutFinal_50Intensity60Subsets_40EpochsDiffYlim.png" alt="high noise" style="width: 100%;">
-    </td>
-    <td style="border: none; padding: 10px; text-align: center;">
-      <img src="figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png" alt="medium noise" style="width: 100%;">
-    </td>
-    <td style="border: none; padding: 10px; text-align: center;">
-      <img src="figures/WalnutFinal_5000Intensity60Subsets_40EpochsDiffYlim.png" alt="low noise" style="width: 100%;">
-    </td>
-  </tr>
-</table>
+### Stochastic Optimisation yields Faster CT Reconstruction
 
-### Changes in the reconstruction during the first 10 epochs for medium noise
-**SGD**
-![SGD](figures/Walnut_SGD_Intensity250_10Epochs_Reconstructions.png)
-**SAGA**
-![SAGA](figures/Walnut_SAGA_Intensity250_10Epochs_Reconstructions.png)
-**SVRG**
 ![SVRG](figures/Walnut_SVRG_Intensity250_10Epochs_Reconstructions.png)
-**SPDHG**
-![SPDHG](figures/Walnut_SPDHG_Intensity250_10Epochs_Reconstructions.png)
+
+![Objective](figures/ WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png)
+
+ 
