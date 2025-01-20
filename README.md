@@ -29,7 +29,7 @@ Results in the paper can be reproduced by running code as follows:
 * Figure 8-9: `Walnut_Comparison.py`
 * Figure 10: `Walnut_SVRGStepsizes.py`
 
-### Stochastic Optimisation yields Faster CT Reconstruction
+### Stochastic optimisation yields faster CT reconstruction
 
 <p align="center">
 
@@ -41,7 +41,7 @@ Results in the paper can be reproduced by running code as follows:
 
 <p align="center">
 
-<img src="figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png" width="70%"/>
+<img src="figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png" width="50%"/>
 
 </p>
 
