@@ -33,6 +33,6 @@ Results in the paper can be reproduced by running code as follows:
 
 ![SVRG](figures/Walnut_SVRG_Intensity250_10Epochs_Reconstructions.png)
 
-![Objective](figures/ WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png)
+![Objective](figures/WalnutFinal_250Intensity60Subsets_40EpochsDiffYlim.png)
 
  
